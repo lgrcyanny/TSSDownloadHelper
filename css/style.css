@@ -1,0 +1,11 @@
+div#tss-dl-helper {
+  position: absolute;
+  width: 200px;
+  top: 277px;
+  left: 410px;
+}
+
+#tss-dl-helper button {
+  cursor: pointer;
+  float: left;
+}

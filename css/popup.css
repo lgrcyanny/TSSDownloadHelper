@@ -1,0 +1,15 @@
+body {
+  background-color: #ffffff;
+  min-width: 180px;
+  min-height: 80px;
+  overflow: scroll;
+  font-size: 12px;
+}
+
+div#info {
+  margin: 10px;
+}
+
+div#info *{
+  margin-top: 2px;
+}
