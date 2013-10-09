@@ -11,5 +11,10 @@ div#info {
 }
 
 div#info *{
-  margin-top: 2px;
+  margin-top: -10px;
+  line-height: 180%;
+}
+
+div#info:first-child {
+  margin-top: 15px;
 }

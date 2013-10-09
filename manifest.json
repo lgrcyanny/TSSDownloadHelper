@@ -9,7 +9,8 @@
 
   "permissions": [
     "tabs",
-    "http://218.94.159.102/tss/*"
+    "http://218.94.159.102/tss/*",
+    "downloads"
   ],
 
   "background": {
@@ -21,12 +22,12 @@
       "matches": ["http://218.94.159.102/tss/*/slide/*"],
       "js": ["js/lib/jquery-2.0.3.min.js", "js/content-inject.js"],
       "css": ["css/style.css"],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ],
 
   "page_action": {
-    "default_icon": "img/icon_128.png",
+    "default_icon": "img/icon_32.png",
     "default_title": "TSS下载助手",
     "default_popup": "popup.html"
   },
